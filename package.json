@@ -1,5 +1,6 @@
 {
   "name": "bank_modern_app",
+  "homepage": "https://aishwaryaparab.github.io/HooBank/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
