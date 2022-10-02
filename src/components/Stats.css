@@ -1,0 +1,36 @@
+.stats-pair {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 45px;
+    /* border-right: 0.5px solid white; */
+}
+
+.stats-pair h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.stats-pair p {
+    background-image: -webkit-linear-gradient( top right, #DEF9FA , #0bdce3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* Changes the word to uppercase */
+    text-transform: uppercase; 
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40px;
+}

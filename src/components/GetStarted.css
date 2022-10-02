@@ -1,0 +1,43 @@
+.blue-circle {
+    width: 140px;
+    height: 140px;
+    padding: 2px;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient( top right, #DEF9FA , #0bdce3);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #0B0A0C;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-circle span {
+    background-image: -webkit-linear-gradient( top right, #DEF9FA , #0bdce3);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.get-arrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.get-arrow img {
+    width: 23px;
+    height: 23px;
+    margin: 0 3.5px;
+}

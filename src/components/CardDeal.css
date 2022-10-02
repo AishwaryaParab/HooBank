@@ -1,0 +1,32 @@
+#card-deal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 85px;
+}
+
+.left-features h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    max-width: 500px;
+    color: white;
+}
+
+.left-features p {
+    max-width: 470px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: grey;
+    margin: 20px 0 40px 0;
+}
+
+.card-img img {
+    width: 40vw;
+    height: 50%;
+}
+
+.bill-img {
+    max-width: 50%;
+}

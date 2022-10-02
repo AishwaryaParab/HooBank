@@ -1,0 +1,120 @@
+#clients {
+    padding: 60px 85px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.clientText {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clientText h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    max-width: 500px;
+    color: white;
+}
+
+.clientText p {
+    max-width: 470px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: grey;
+    margin: 60px 0 40px 0;
+}
+
+.client-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quotes {
+    width: 42px;
+    height: 27px;
+}
+
+.testimonial {
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.testimonial:hover {
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%); 
+}
+
+.testimonial img {
+    width: 48px;
+    height: 48px;
+}
+
+.client-content {
+    padding: 20px 0;
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-desgn {
+    margin-left: 15px;
+}
+
+.blue-bg {
+    position: absolute;
+    left: 70%;
+    top: 5%;
+    
+
+    z-index: 0;
+    width: 80%;
+    height: 80%;
+    /* overflow-x: hidden; Putting this in the parent element */
+    border-radius: 50%;
+
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+}
+
+/* CSS for company logos */
+
+.comp-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.comp-logos img {
+    width: 150px;
+    margin: 40px;
+}
+
+/* .comp-logos img:hover {
+    color: white;
+} */
+
